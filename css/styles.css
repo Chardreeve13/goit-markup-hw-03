@@ -1,11 +1,12 @@
 :root{
+    --color-iris: #4D5AE5;
     --color-black: #fff;
     --color-black: #000;
     --color-tomato:#ff6347;
     --color-navyblue: #2E2F42;
-    --color-iris: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 *{
