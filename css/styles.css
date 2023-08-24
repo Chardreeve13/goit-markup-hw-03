@@ -57,9 +57,16 @@ h6 {
         letter-spacing: 0.32px;
 }
 
-/* .studio:hover {
-    color: tomato;
-} */
+.main-header-cta:hover,
+.main-header-ctas:hover {
+    text-decoration: none;
+        font-family: "roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
 
 
 
