@@ -26,7 +26,7 @@ h6 {
     font-family: 'roboto', sans-serif;
 }
 
-.logo {
+.web-logo {
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
@@ -37,21 +37,31 @@ h6 {
     text-transform: uppercase;
 }
 
-.studio {
+.studio-logo {
     color: var(--navyblue, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 }
 
-.studio:hover {
+.main-header-cta{
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+/* .studio:hover {
     color: tomato;
-}
+} */
 
-.web a {
-    text-decoration: none;
-}
 
-.web a:hover {
-    color: #ff6347;
-}
 
 .navstudio,
 .navport,
@@ -68,17 +78,6 @@ h6 {
     text-decoration: none;
 }
 
-.navstudio:hover {
-    color: tomato;
-}
-
-.navport:hover {
-    color: tomato;
-}
-
-.navcon:hover {
-    color: tomato;
-}
 
 .email,
 .tel {
@@ -95,13 +94,6 @@ h6 {
     text-decoration: none;
 }
 
-.email:hover {
-    color: tomato;
-}
-
-.tel:hover {
-    color: tomato;
-}
 
 .hero-description {
     color: var(--white, #000000);
