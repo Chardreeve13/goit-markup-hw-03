@@ -4,8 +4,12 @@
     --color-navyblue: #2E2F42;
     --color-iris: #4D5AE5;
 }
+
 *{
     box-sizing: border-box;
+}
+body {
+    font-family: 'roboto' ,sans-serif;
 }
 
 .web {
@@ -15,7 +19,6 @@
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
-    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
