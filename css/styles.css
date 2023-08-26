@@ -41,6 +41,10 @@ ul {
     --dairy: #fcfcfc;
 }
 
+.main-header{
+    display: inline-flex;
+}
+
 .main-header-nav{
     display:inline-flex;
     text-decoration: none;
