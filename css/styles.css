@@ -110,7 +110,7 @@ address {
 }
 
 .address-list{
-    display: inline-flex;
+    display:flex;
     margin-top: auto;
     margin-bottom: auto;
     gap: 40px;
