@@ -79,7 +79,7 @@ ul {
 }
 
 .nav-logo-wrap a {
-    display: inline-flex;
+    display:flex;
     text-decoration: none;
 }
 
