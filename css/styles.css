@@ -42,7 +42,7 @@ ul {
 }
 
 .main-header-nav{
-    display:flex;
+    display:inline-flex;
 }
 
 .nav-list{
