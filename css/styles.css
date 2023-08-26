@@ -102,6 +102,10 @@ address {
     font-style: normal;
 }
 
+.address-list{
+    display: inline-flex;
+}
+
 .address-link {
     display: inline-flex;
     color: var(--slate);
