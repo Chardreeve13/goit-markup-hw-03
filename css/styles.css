@@ -104,6 +104,7 @@ address {
 
 .address-list{
     display: inline-flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -115,7 +116,6 @@ address {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
-    gap:40px;
 }
 
 .address-link:hover {
