@@ -69,6 +69,7 @@ ul {
 }
 
 .nav-logo-wrap {
+    display: inline-flex;
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
@@ -79,7 +80,7 @@ ul {
 }
 
 .nav-logo-wrap a {
-    display:flex;
+    display:inline-flex;
     text-decoration: none;
 }
 
