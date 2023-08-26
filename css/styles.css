@@ -45,7 +45,7 @@ ul {
     display: flex;
     width: 1440px;
     height: 72px;
-    padding: 0px 15px;
+    padding: 0px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -56,6 +56,9 @@ ul {
 .main-header-nav{
     display:inline-flex;
     text-decoration: none;
+    padding: 0px, 156px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .nav-list{
