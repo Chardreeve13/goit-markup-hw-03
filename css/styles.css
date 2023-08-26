@@ -90,6 +90,10 @@ ul {
 
 .studio {
     color: var(--navyblue);
+}  
+
+.nav-list-link{
+list-style: none; 
 }
 
 .nav-link {
