@@ -61,7 +61,7 @@ ul {
     margin-right: 0;
 }
 
-.nav-list{
+.nav-list a{
     display:inline-flex;
     padding-left: 0;
     margin-left: 130px;
