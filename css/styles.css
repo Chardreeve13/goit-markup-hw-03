@@ -111,6 +111,8 @@ address {
 
 .address-list{
     display: inline-flex;
+    margin-top: auto;
+    margin-bottom: auto;
     gap: 40px;
 }
 
@@ -122,8 +124,6 @@ address {
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.32px;
-    margin-top: auto;
-    margin-bottom: auto;
     text-decoration: none;
 }
 
