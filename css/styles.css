@@ -112,8 +112,8 @@ address {
 }
 
 .address-list{
-    display:flex;
-    padding-left: 0;
+    display:inline-flex;
+    /* padding-left: 0; */
     /* margin-left:0; */
     gap: 330px;
 }
