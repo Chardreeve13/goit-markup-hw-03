@@ -115,7 +115,11 @@ address {
     display:inline-flex;
     padding-left: 0;
     margin-left:0;
-    gap: 330px;
+    gap: 40px;
+}
+
+.address-list a{
+gap: 330px;
 }
 
 .address-link {
