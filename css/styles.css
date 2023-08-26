@@ -104,7 +104,6 @@ address {
 
 .address-list{
     display: inline-flex;
-    text-decoration: none;
 }
 
 .address-link {
