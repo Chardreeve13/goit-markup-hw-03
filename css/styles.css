@@ -114,8 +114,8 @@ address {
 .address-list{
     display:flex;
     padding-left: 0;
-    margin-left:0;
-    gap: 40px;
+    /* margin-left:0; */
+    gap: 330px;
 }
 
 .address-link {
@@ -126,7 +126,6 @@ address {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
-    gap: 330px;
 }
 
 .address-link:hover {
