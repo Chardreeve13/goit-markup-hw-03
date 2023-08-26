@@ -92,6 +92,7 @@ ul {
 }
 
 address {
+    display: inline-flex;
     font-style: normal;
 }
 
