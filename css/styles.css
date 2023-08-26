@@ -41,6 +41,10 @@ ul {
     --dairy: #fcfcfc;
 }
 
+.main-header-nav{
+    display:flex;
+}
+
 .nav-logo-wrap {
     color: var(--iris);
     font-family: Raleway;
