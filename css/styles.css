@@ -107,8 +107,9 @@ ul {
 }
 
 address {
-display: flex;
+    display: flex;
     font-style: normal;
+    gap: 332px;
 }
 
 .address-list{
