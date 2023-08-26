@@ -41,10 +41,6 @@ ul {
     --dairy: #fcfcfc;
 }
 
-address {
-    font-style: normal;
-}
-
 .nav-logo-wrap {
     color: var(--iris);
     font-family: Raleway;
@@ -79,6 +75,10 @@ address {
 .studio:hover,
 .nav-link:hover {
     color: var(--ocean);
+}
+
+address {
+    font-style: normal;
 }
 
 .address-link {
