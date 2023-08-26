@@ -144,17 +144,19 @@ gap: 330px;
     color: var(--ocean);
 }
 
-.hero-description {
+hero{
+    display: flex;
     background-color: var(--navyblue);
     width: 1440px;
-    height: 600px;
-    color: var(--white);
-    text-align: center;
-    /* font-family: Roboto; */
-    font-size: 56px;
-    font-style: normal;
-    line-height: 60px;
-    letter-spacing: 1.12px;
+    height: 7600px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.hero-description {
+padding: 188px, 472px, 292px,;    
+
 }
 
 .btn {
