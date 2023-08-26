@@ -45,6 +45,11 @@ ul {
     display:inline-flex;
 }
 
+.main-header-menu{
+    display:inline-flex;
+    
+}
+
 .nav-logo-wrap {
     color: var(--iris);
     font-family: Raleway;
