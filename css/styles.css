@@ -106,14 +106,14 @@ ul {
 }
 
 address {
-    display:flex;
+    display:inline-flex;
     font-style: normal;
 }
 
 .address-list{
-    display:flex;
-    margin-top: auto;
-    margin-bottom: auto;
+    display:inline-flex;
+    padding-left: 0;
+    margin-left:auto;
     gap: 40px;
 }
 
