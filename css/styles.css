@@ -118,7 +118,6 @@ address {
 }
 
 .address-link {
-    display: inline-flex;
     color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
