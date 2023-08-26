@@ -113,8 +113,8 @@ address {
 
 .address-list{
     display:inline-flex;
-    /* padding-left: 0; */
-    /* margin-left:0; */
+    padding-left: 0;
+    margin-left:0;
     gap: 330px;
 }
 
