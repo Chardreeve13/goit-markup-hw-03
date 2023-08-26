@@ -149,8 +149,8 @@ gap: 330px;
     width: 1440px;
     height: 600px;
     color: var(--white);
-    text-align: left;
-    font-family: Roboto;
+    text-align: center;
+    /* font-family: Roboto; */
     font-size: 56px;
     font-style: normal;
     line-height: 60px;
