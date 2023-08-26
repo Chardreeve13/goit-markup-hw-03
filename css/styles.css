@@ -46,6 +46,9 @@ ul {
     width: 1440px;
     height: 72px;
     flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 
 }
 
