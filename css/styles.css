@@ -47,6 +47,11 @@ ul {
 
 .nav-list{
     display:inline-flex;
+    padding-left: 0;
+    margin-left: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap:40px;
 
 }
 
