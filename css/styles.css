@@ -144,18 +144,25 @@ gap: 330px;
     color: var(--ocean);
 }
 
-hero{
-    display: flex;
-    background-color: var(--navyblue);
-    width: 1440px;
-    height: 7600px;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
+/* hero h1{
+color: var(--white);
+    text-align: center;
+    font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+} */
 .hero-description {
-padding: 188px, 472px, 292px,;    
+    color:var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    background-color: var(--navyblue);
+    padding: 188px 472px 292px;    
 
 }
 
