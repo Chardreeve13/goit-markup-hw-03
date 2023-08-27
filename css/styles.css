@@ -216,7 +216,7 @@ button:hover {
 
 .body-header-images{
     display: inline-flex;
-    padding:72px 156px 0px;
+    padding:72px 156px 120px;
     list-style:none;
     gap:24px;
 }
@@ -225,13 +225,11 @@ button:hover {
     background: var(--cloud);
     width: 1440px;
     height: 732px;
-    padding: 0px;
-    margin: 0px;
     flex-shrink: 0;
-    padding-top:120px;
+   
 }
 .team-header {
-    display: inline-flex;
+display: inline-flex;
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 36px;
@@ -239,7 +237,7 @@ button:hover {
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding:120px 639px 0px;
+    padding:120px 639px 0px 639px;
 }
 
 .team-header-list{
@@ -270,11 +268,11 @@ p {
     width: 264px;
     letter-spacing: 0.32px;
 }
-
+/* 
 .team-header-images {
     width: 264px;
     height: 260px;
-}
+} */
 /* 
 h3 {
     color: var(--navyblue);
