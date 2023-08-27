@@ -330,19 +330,13 @@ h3 {
     background: var(--white);
     gap: 32px;
 }
-/* 
-.main-footer{
-    display: inline-flex;
-    background: var(--navyblue);
-    width: 1440px;
-    height: 312px;
-} */
 
 .main-footer{
-    display:inline-flex;
+    display:flex;
+    margin-top:auto;
     width:1440px;
     height:312px;
-   color: var(--navyblue);
+   background: var(--navyblue);
 }
 /* }
 p .footer-paragraph{
