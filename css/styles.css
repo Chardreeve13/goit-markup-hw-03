@@ -312,8 +312,7 @@ display: inline-flex;
     background: var(--navyblue);
     width:1440px;
     height:312px;
-    padding:0;
-    margin:0;
+    
 }
 
 .main-footer a{
@@ -325,7 +324,8 @@ display: inline-flex;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        padding:101.5px 1240px 0px 156px;
+        padding-top:101.5px;
+        padding-left:156px;
         text-decoration: none;
 }
 
@@ -336,17 +336,19 @@ display: inline-flex;
         font-style: normal;
         font-weight: 800;
         line-height: 21px;
-        /* letter-spacing: 0.54px; */
         text-transform: uppercase;
         text-decoration: none;
 }
 
 .footer-paragraph{
-    color: var(--white);
-        font-family: Roboto;
+    color: var(--cloud);
+        /* font-family: Roboto; */
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
         padding-left:156px;
+        padding-top:17.5px;
 }
