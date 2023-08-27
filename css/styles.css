@@ -330,20 +330,21 @@ h3 {
     background: var(--white);
     gap: 32px;
 }
+/* 
 .main-footer{
     display: inline-flex;
     background: var(--navyblue);
     width: 1440px;
     height: 312px;
-}
-/* footer{
-    display:inline-flex;
-    align-content:flex-start ;
-    
-    flex-shrink: 0;
-    margin:0px;
-    padding-top: 0px;
 } */
+
+.main-footer{
+    display:inline-flex;
+    width:1440px;
+    height:312px;
+   color: var(--navyblue);
+}
+/* }
 p .footer-paragraph{
     color:var(--white);
-}
+}  */
