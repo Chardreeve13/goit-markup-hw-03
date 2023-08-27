@@ -28,7 +28,7 @@ ul {
 
 :root {
     --iris: #4d5ae5;
-    --navyblue: #2e2f42;
+    --navyblue: #2E2F42;
     --ocean: #404bbf;
     --white: #ffffff;
     --slate: #434455;
@@ -56,7 +56,7 @@ ul {
 .main-header-nav{
     display:inline-flex;
     text-decoration: none;
-    padding: 0px, 156px;
+    padding: 25.5px, 156px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -117,6 +117,7 @@ list-style: none;
 address {
     display: flex;
     font-style: normal;
+    
 }
 
 .address-list{
@@ -226,7 +227,8 @@ button:hover {
     width: 1440px;
     height: 732px;
     flex-shrink: 0;
-   
+   padding-bottom: 0px;
+   margin:0px;
 }
 .team-header {
 display: inline-flex;
@@ -327,4 +329,21 @@ h3 {
     border: 1px solid var(--cornflower);
     background: var(--white);
     gap: 32px;
+}
+.main-footer{
+    display: inline-flex;
+    background: var(--navyblue);
+    width: 1440px;
+    height: 312px;
+}
+/* footer{
+    display:inline-flex;
+    align-content:flex-start ;
+    
+    flex-shrink: 0;
+    margin:0px;
+    padding-top: 0px;
+} */
+p .footer-paragraph{
+    color:var(--white);
 }
