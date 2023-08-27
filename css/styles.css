@@ -186,6 +186,12 @@ button:hover {
     color: var(--cloud);
 }
 
+.features {
+    display:inline-flex;
+    padding:120px 156px 0px;
+    list-style: none;
+    gap:24px;
+}
 .hero-features {
     color: var(--navyblue);
     font-family: Roboto;
@@ -194,6 +200,7 @@ button:hover {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    padding-bottom:8px;
 }
 
 .body-header,
