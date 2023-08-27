@@ -41,41 +41,31 @@ ul {
     --dairy: #fcfcfc;
 }
 
-.main-header{
-    display: flex;
+.main-header {
+    display: inline-flex;
+    background-color: #8e8f99;
     width: 1440px;
     height: 72px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    margin-bottom: 0;
-    gap: 330px;
-
 }
 
-.main-header-nav{
-    display:inline-flex;
-    text-decoration: none;
-    padding: 25.5px, 156px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+.nav-header {
+    display: inline-flex;
 }
 
-.nav-list{
-    display:inline-flex;
-    text-decoration: none;
-    padding-left: 0;
-    margin-left: 130px;
-    margin-top: auto;
-    margin-bottom: auto;
-    gap:40px;
-
+.nav-list {
+    list-style: none;
 }
 
-.nav-logo-wrap {
-    display:flex;
+.address-link-list {
+    display: inline-flex;
+}
+
+.logo-nav {
+    padding-top: 25.5px;
+    padding-left: 156px;
+}
+
+.logo-nav a {
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
@@ -83,20 +73,36 @@ ul {
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
-}
-
-.nav-logo-wrap a {
-    /* display:inline-flex; */
+    text-transform: uppercase;
     text-decoration: none;
 }
 
-.studio {
-    color: var(--navyblue);
-}  
+.logo-nav a:hover {
+    color: var(--ocean);
+}
 
-.address-link-list,
-.nav-list-link{
-list-style: none; 
+.studio {
+    color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.studio:hover {
+    color: var(--ocean);
+}
+
+.link-nav {
+    display: inline-flex;
+    padding-top: 24px;
+    padding-left: 76px;
+    padding-bottom: 24px;
+    margin: 0;
+    gap: 40px;
 }
 
 .nav-link {
@@ -107,46 +113,46 @@ list-style: none;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.nav-logo-wrap a:hover,
-.studio:hover,
 .nav-link:hover {
     color: var(--ocean);
 }
 
-address {
-    /* display: inline-flex; */
-    font-style: normal;
-    margin-bottom:0;
-    
+.address {
+    display: inline-flex;
+    padding-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.address-list{
-    display:inline-flex;
-    padding-left: 0;
-    margin-left:0;
-    gap: 40px;
-}
+.address-list {
+    display: inline-flex;
+    list-style: none;
 
-.address-list a{
-gap: 330px;
-margin:0;
 }
 
 .address-link {
-    color: var(--slate);
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    text-decoration: none;
 }
 
 .address-link:hover {
     color: var(--ocean);
+}
+
+.address-nav {
+    display: inline-flex;
+    gap: 40px;
+    padding: right 156px;
 }
 
 .hero-description {
