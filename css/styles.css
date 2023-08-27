@@ -86,7 +86,7 @@ ul {
 }
 
 .nav-logo-wrap a {
-    display:inline-flex;
+    /* display:inline-flex; */
     text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ list-style: none;
 }
 
 address {
-    display: inline-flex;
+    /* display: inline-flex; */
     font-style: normal;
     margin-bottom:0;
     
@@ -150,6 +150,7 @@ margin:0;
 }
 
 .hero-description {
+    display:inline-block;
     background-color: var(--navyblue);
         width: 1440px;
         height: 600px;
@@ -183,8 +184,6 @@ button {
     gap: 10px;
     cursor: pointer;
 }
-
-
 button:hover {
     color: var(--cloud);
 }
@@ -226,6 +225,7 @@ button:hover {
 }
 
 .team-background{
+    display:inline-block;
     background: var(--cloud);
     width: 1440px;
     height: 732px;
@@ -276,33 +276,6 @@ display: inline-flex;
         padding-top:8px;
 }
 
-p {
-    color: var(--slate);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 24px;
-    width: 264px;
-    letter-spacing: 0.32px;
-}
-/* 
-.team-header-images {
-    width: 264px;
-    height: 260px;
-} */
-/* 
-h3 {
-    color: var(--navyblue);
-    text-align: left;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-
-} */
-
 .button-links {
     color: var(--iris);
     text-align: center;
@@ -335,7 +308,7 @@ h3 {
 }
 
 .main-footer{
-    /* display:; */
+    display:inline-block;
     background: var(--navyblue);
     width:1440px;
     height:312px;
@@ -368,13 +341,12 @@ h3 {
         text-decoration: none;
 }
 
-
 .footer-paragraph{
     color: var(--white);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
-        /* font-weight: 400;
-        line-height: 24px; */
+        font-weight: 400;
+        line-height: 24px;
         padding-left:156px;
 }
