@@ -300,7 +300,7 @@ display: inline-flex;
     gap: 32px;
 }
 
-.main-footer{
+.footer{
     display:inline-block;
     background: var(--navyblue);
     width:1440px;
