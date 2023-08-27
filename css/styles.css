@@ -359,3 +359,8 @@ display: inline-flex;
         padding-left:156px;
         padding-top:17.5px;
 }
+
+.main-footer a, 
+.studio-footer:hover{
+    color: var(--ocean);
+}
