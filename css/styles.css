@@ -48,24 +48,32 @@ ul {
     height: 72px;
 }
 
+button {
+    border: unset;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .nav-header {
     display: inline-flex;
 }
 
-.nav-list {
-    list-style: none;
-}
-
+/* 
 .address-link-list {
     display: inline-flex;
-}
+} */
 
-.logo-nav {
+.nav-logo {
     padding-top: 25.5px;
     padding-left: 156px;
 }
 
-.logo-nav a {
+.nav-logo-link {
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
@@ -74,10 +82,10 @@ ul {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-.logo-nav a:hover {
+.nav-logo-link:hover {
     color: var(--ocean);
 }
 
@@ -96,7 +104,7 @@ ul {
     color: var(--ocean);
 }
 
-.link-nav {
+.nav-list{
     display: inline-flex;
     padding-top: 24px;
     padding-left: 76px;
@@ -105,7 +113,11 @@ ul {
     gap: 40px;
 }
 
-.nav-link {
+.nav-list-item {
+    list-style: none;
+}
+
+.nav-list-link {
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 16px;
@@ -113,10 +125,10 @@ ul {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-.nav-link:hover {
+.nav-list-link:hover {
     color: var(--ocean);
 }
 
@@ -129,14 +141,19 @@ ul {
 
 .address-list {
     display: inline-flex;
-    list-style: none;
-
+    gap: 40px;
+    padding: right 156px;
 }
 
-.address-link {
+.address-list-item {
+    display: inline-flex;
+    list-style: none;
+}
+
+.address-list-link {
     display: inline-flex;
     text-decoration: none;
-    color: var(--slate, #434455);
+    color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -145,17 +162,11 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.address-link:hover {
+.address-list-link:hover {
     color: var(--ocean);
 }
 
-.address-nav {
-    display: inline-flex;
-    gap: 40px;
-    padding: right 156px;
-}
-
-.hero-description {
+.hero {
     display:inline-block;
     background-color: var(--navyblue);
         width: 1440px;
@@ -163,7 +174,7 @@ ul {
         padding:0;
         margin:0;
 }
-h1{
+.hero-title{
     color:var(--white);
     font-size: 56px;
     font-style: normal;
@@ -173,7 +184,7 @@ h1{
     padding: 188px 472px 0px;  
 }
 
-button {
+.hero-button {
     display:inline-flex;
     flex-wrap: wrap;
     width: 169px;
@@ -190,8 +201,8 @@ button {
     gap: 10px;
     cursor: pointer;
 }
-button:hover {
-    color: var(--cloud);
+.hero-button:hover {
+    color: var(--ocean);
 }
 
 .features {
