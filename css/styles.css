@@ -222,7 +222,7 @@ a {
     padding-bottom:8px;
 }
 
- .body-header{
+ .services-title{
     display:inline-flex;
     color: var(--navyblue);
     font-family: Roboto;
@@ -234,7 +234,7 @@ a {
     padding:120px 558px 0px 559px;
 }
 
-.body-header-images{
+.services-list{
     display: inline-flex;
     padding:72px 156px 120px;
     list-style:none;
@@ -257,7 +257,6 @@ display: inline-flex;
     font-size: 36px;
     font-style: normal;
     line-height: 40px;
-
     text-transform: capitalize;
     padding:120px 639px 0px 639px;
 }
