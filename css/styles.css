@@ -205,13 +205,13 @@ a {
     color: var(--ocean);
 }
 
-.features {
+.features-list {
     display:inline-flex;
     padding:120px 156px 0px;
     list-style: none;
     gap:24px;
 }
-.hero-features {
+.features-list-title {
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
