@@ -241,7 +241,7 @@ a {
     gap:24px;
 }
 
-.team-background{
+.team{
     display:inline-block;
     background: var(--cloud);
     width: 1440px;
@@ -250,7 +250,7 @@ a {
    padding: 0;
    margin:0;
 }
-.team-header {
+.team-title {
 display: inline-flex;
     color: var(--navyblue);
     font-family: Roboto;
@@ -261,14 +261,14 @@ display: inline-flex;
     padding:120px 639px 0px 639px;
 }
 
-.team-header-list{
+.team-list{
     display: inline-flex;
    padding: 72px 156px 0px;
    list-style:none;
    gap:24px;
 }
 
-.team-header-name{
+.team-list-title{
     color: var(--navyblue, #2E2F42);
         text-align: center;
         font-family: Roboto;
@@ -280,7 +280,7 @@ display: inline-flex;
         padding-top:32px;
 }
 
-.team-header-position{
+.team-list-description{
     color: var(--slate, #434455);
         text-align: center;
         font-family: Roboto;
@@ -290,7 +290,7 @@ display: inline-flex;
         line-height: 24px;
         letter-spacing: 0.32px;
         padding-top:8px;
-}
+} 
 
 .button-links {
     color: var(--iris);
