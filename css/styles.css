@@ -235,49 +235,42 @@ display: inline-flex;
     font-size: 36px;
     font-style: normal;
     line-height: 40px;
+
     text-transform: capitalize;
     padding:120px 639px 0px 639px;
 }
 
 .team-header-list{
     display: inline-flex;
-    padding: 72px 156px 0px;
-    list-style:none;
-    gap:24px;
+   padding: 72px 156px 0px;
+   list-style:none;
+   gap:24px;
 }
 
 .team-header-name{
-    color: var(--navyblue);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    padding-top:32px;
-    border-left: 1px solid var(--cornflower);
-    border-right: 1px solid var(--cornflower);
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        padding-top:32px;
 }
 
 .team-header-position{
-    color: var(--slate);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    padding-top:8px;
-    padding-bottom: 32px;
-    border-left: 1px solid var(--cornflower);
-    border-right: 1px solid var(--cornflower);
-    border-bottom: 1px solid var(--cornflower);
+    color: var(--slate, #434455);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        padding-top:8px;
+}
 
-        }
-
-/* 
 p {
     color: var(--slate);
     font-family: Roboto;
@@ -286,7 +279,7 @@ p {
     line-height: 24px;
     width: 264px;
     letter-spacing: 0.32px;
-} */
+}
 /* 
 .team-header-images {
     width: 264px;
@@ -334,19 +327,4 @@ h3 {
     border: 1px solid var(--cornflower);
     background: var(--white);
     gap: 32px;
-}
-.nav-logo-wrap{
-    background: var(--navyblue);
-    width:1440px;
-    height:312px;
-    flex-shrink: 0;
-}
-.footer-paragraph{
-    color: var(--cloud, #F4F4FD);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
 }
