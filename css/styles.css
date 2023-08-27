@@ -241,7 +241,7 @@ a {
     gap:24px;
 }
 
-.team{
+.team-background{
     display:inline-block;
     background: var(--cloud);
     width: 1440px;
@@ -292,29 +292,6 @@ display: inline-flex;
         padding-top:8px;
 } 
 
-.button-links {
-    color: var(--iris);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    border-radius: 4px;
-    border: 1px solid var(--cornflower);
-    background: var(--cloud);
-    cursor: pointer;
-}
-
-.button-links:hover {
-    color: var(--white);
-    text-align: center;
-    border-radius: 4px;
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-
 .image-thumbnails {
     width: 360px;
     height: 300px;
@@ -335,7 +312,7 @@ display: inline-flex;
     padding:101.5px 1169px 0px 156px;
 
 }
-.main-footer a{
+.footer-logo-link{
     color: var(--iris);
         font-family: Raleway;
         font-size: 18px;
@@ -358,7 +335,7 @@ display: inline-flex;
         text-decoration: none;
 }
 
-.footer-paragraph{
+.footer-footer-description{
     color: var(--cloud);
         font-size: 16px;
         font-style: normal;
@@ -370,7 +347,7 @@ display: inline-flex;
         padding-top:17.5px;
 }
 
-.main-footer a, 
+.footer-logo-link, 
 .studio-footer:hover{
     color: var(--ocean);
 }
