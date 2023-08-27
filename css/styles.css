@@ -220,6 +220,16 @@ button:hover {
     list-style:none;
     gap:24px;
 }
+
+.team-background{
+    background: var(--cloud);
+    width: 1440px;
+    height: 732px;
+    padding: 0px;
+    margin: 0px;
+    flex-shrink: 0;
+    padding-top:120px;
+}
 .team-header {
     display: inline-flex;
     color: var(--navyblue);
@@ -229,17 +239,28 @@ button:hover {
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding:120px 639px;
+    padding:120px 639px 0px;
 }
 
-.team-header-images{
+.team-header-list{
     display: inline-flex;
    padding: 72px 156px 0px;
    list-style:none;
    gap:24px;
-    
 }
-
+/* 
+.team-header-name{
+    display:inline-flex;
+    font-family: Roboto;
+    color: var(--navyblue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+text-align: center;
+    padding-left:221px;
+} */
 p {
     color: var(--slate);
     font-family: Roboto;
@@ -254,7 +275,7 @@ p {
     width: 264px;
     height: 260px;
 }
-
+/* 
 h3 {
     color: var(--navyblue);
     text-align: left;
@@ -265,7 +286,7 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.4px;
 
-}
+} */
 
 .button-links {
     color: var(--iris);
