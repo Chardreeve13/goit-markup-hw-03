@@ -315,6 +315,10 @@ display: inline-flex;
     
 }
 
+.footer-container{
+    padding:101.5px 1169px 0px 156px;
+
+}
 .main-footer a{
     color: var(--iris);
         font-family: Raleway;
@@ -324,8 +328,6 @@ display: inline-flex;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        padding-top:101.5px;
-        padding-left:156px;
         text-decoration: none;
 }
 
@@ -342,7 +344,6 @@ display: inline-flex;
 
 .footer-paragraph{
     color: var(--cloud);
-        /* font-family: Roboto; */
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
