@@ -49,6 +49,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    margin-bottom: 0;
     gap: 330px;
 
 }
@@ -228,7 +229,7 @@ button:hover {
     height: 732px;
     flex-shrink: 0;
    padding-bottom: 0px;
-   margin:0px;
+   margin-bottom:0px;
 }
 .team-header {
 display: inline-flex;
@@ -246,6 +247,7 @@ display: inline-flex;
     display: inline-flex;
    padding: 72px 156px 0px;
    list-style:none;
+   margin-bottom: 0;
    gap:24px;
 }
 
@@ -332,12 +334,25 @@ h3 {
 }
 
 .main-footer{
-    display:flex;
-    margin-top:auto;
+    display:inline-flex;
+    background: var(--navyblue);
+    margin-top: 0;
+    white-space: wrap; 
     width:1440px;
     height:312px;
-   background: var(--navyblue);
 }
+nav-logo-wrap-footer{
+    color: var(--iris, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        padding:101.5px 1169px 0px 200px;
+}
+
 /* }
 p .footer-paragraph{
     color:var(--white);
