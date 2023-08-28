@@ -40,7 +40,10 @@ ul {
     --grey: #2e2f42;
     --dairy: #fcfcfc;
 }
-
+.container{
+    width:1158px;
+    margin:0 auto;
+}
 .main-header {
     display:flex;
     background-color:var(--white);
