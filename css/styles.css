@@ -222,11 +222,25 @@ a {
     color: var(--ocean);
 }
 
+.features{
+    display: flex;
+    background-color: var(--white);
+    padding: 120px;
+}
+.features-container {
+    display: flex;
+    /* flex-direction: row; */
+   
+}
 .features-list {
     display:inline-flex;
-    padding:120px 156px 0px;
+    /* padding:120px 156px 0px; */
+    /* align-content: center; */
     list-style: none;
     gap:24px;
+}
+.features-list-item{
+   align-items  : center;
 }
 .features-list-title {
     color: var(--navyblue);
