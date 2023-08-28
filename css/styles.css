@@ -42,10 +42,10 @@ ul {
 }
 
 .main-header {
-    display: inline-flex;
+    display:flex;
     background-color:var(--white);
-    width: 1440px;
-    height: 72px;
+    /* width: 1440px;
+    height: 72px; */
 }
 
 button {
@@ -67,11 +67,11 @@ a {
 .address-link-list {
     display: inline-flex;
 } */
-
+/* 
 .nav-logo {
     padding-top: 25.5px;
     padding-left: 156px;
-}
+} */
 
 .nav-logo-link {
     color: var(--iris);
@@ -106,10 +106,10 @@ a {
 
 .nav-list{
     display: inline-flex;
-    padding-top: 24px;
+    /* padding-top: 24px;
     padding-left: 76px;
     padding-bottom: 24px;
-    margin: 0;
+    margin: 0; */
     gap: 40px;
 }
 
@@ -134,9 +134,9 @@ a {
 
 .address {
     display: inline-flex;
-    padding-left: 332px;
+    /* padding-left: 332px;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 24px; */
 }
 
 .address-list {
@@ -169,10 +169,10 @@ a {
 .hero {
     display:inline-block;
     background-color: var(--navyblue);
-        width: 1440px;
+        /* width: 1440px;
         height: 600px;
         padding:0;
-        margin:0;
+        margin:0; */
 }
 .hero-title{
     color:var(--white);
@@ -301,10 +301,10 @@ display: inline-flex;
 }
 
 .footer{
-    display:inline-block;
+    display:block;
     background: var(--navyblue);
-    width:1440px;
-    height:312px;
+    /* width:1440px;
+    height:312px; */
     
 }
 
