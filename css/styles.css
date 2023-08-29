@@ -225,7 +225,7 @@ a {
 .features{
     display: flex;
     background-color: var(--white);
-    padding: 120px;
+    padding-top: 120px;
 }
 .features-container {
     display: flex;
@@ -253,21 +253,35 @@ a {
     padding-bottom:8px;
 }
 
- .services-title{
+.services{
+    dsplay:inline-block;
+    background-color: var(--white);
+    padding:0px;
+}
+.services-container{
     display:inline-flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin:120px;
+    gap:72px;  
+}
+ .services-title{
+    display:inline-block;
     color: var(--navyblue);
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 36px;
     font-style: normal;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding:120px 558px 0px 559px;
+    /* text-align: center; */
+    /* padding:120px 558px 0px 559px; */
 }
 
 .services-list{
     display: inline-flex;
-    padding:72px 156px 120px;
+    /* padding:72px 156px 120px; */
     list-style:none;
     gap:24px;
 }
