@@ -223,7 +223,7 @@ a {
 }
 
 .features{
-    display: flex;
+    display: block;
     background-color: var(--white);
     padding-top: 120px;
 }
@@ -255,6 +255,7 @@ a {
 
 .services{
     dsplay:inline-block;
+
     background-color: var(--white);
     padding:0px;
 }
