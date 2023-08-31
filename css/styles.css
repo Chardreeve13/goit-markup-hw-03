@@ -52,7 +52,7 @@ ul {
 .main-header {
     display:flex;
     background-color:var(--white);
-    padding: 24px 15px;
+    /* padding: 24px 15px; */
 }
 
 button {
@@ -416,26 +416,22 @@ display: inline-flex;
 .studio-footer:hover{
     color: var(--ocean);
 }
-
-/* CSS for portfolio.html below
-
+/* CSS for portfolio.html below */
 .menu {
-    display: block;
+    display:block;
     background-color: nav(--ocean);
-    margin:96px;
+    padding-top: 96px;
 }
-
-.menu-list {
-    display: block;
-    list-style:none;
-    gap:24px;
-}
-
 .menu-container {
-    background-color:nav(--navyblue);
-    display: flex;
-     flex-direction: column; 
+    background-color: nav(--navyblue);
+    display:flex;
+    flex-direction: column;
     align-items: center;
+}
+.menu-list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
 }
 .menu-item-button {
     color: var(--iris);
@@ -454,9 +450,9 @@ display: inline-flex;
     color: var(--white);
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-} */
+}
 
-/* 
+
 .online-app-list-title {
     color: var(--navyblue);
     font-size: 20px;
@@ -473,4 +469,4 @@ display: inline-flex;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-} */
+}
