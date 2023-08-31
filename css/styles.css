@@ -246,7 +246,7 @@ a {
 }
 .features-list-title {
     color: var(--navyblue);
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -417,27 +417,33 @@ display: inline-flex;
     color: var(--ocean);
 }
 
-/* CSS for portfolio.html below */
-/* .menu-list-button{
-    display: block;
-    border: 1px solid var(--cornflower);
-    background: var(--cloud);
-} */
+/* CSS for portfolio.html below
 
-.menu-list {
-    display: inline-block;
+.menu {
+    display: block;
+    background-color: nav(--ocean);
+    margin:96px;
 }
 
+.menu-list {
+    display: block;
+    list-style:none;
+    gap:24px;
+}
+
+.menu-container {
+    background-color:nav(--navyblue);
+    display: flex;
+     flex-direction: column; 
+    align-items: center;
+}
 .menu-item-button {
     color: var(--iris);
-    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    display: block;
-    padding: 12px 24px;
     border-radius: 4px;
     background-color: var(--cloud);
     border: 1px solid var(--cornflower);
@@ -448,18 +454,9 @@ display: inline-flex;
     color: var(--white);
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
+} */
 
-.menu{
-    display:block;
-    background-color:nav(--white);
-}
-.menu-container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap:96px;
-}
+/* 
 .online-app-list-title {
     color: var(--navyblue);
     font-size: 20px;
@@ -476,4 +473,4 @@ display: inline-flex;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-}
+} */
