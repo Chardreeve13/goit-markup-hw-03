@@ -373,6 +373,7 @@ display: inline-flex;
 }
 
 .footer-container{
+    background-color: gray;
   display:flex;
   flex-direction: column;
   gap:17.5px;
