@@ -48,6 +48,7 @@ ul {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--cornflower);
+    padding: 24px 15px;
 }
 .main-header {
     display:flex;
