@@ -212,7 +212,7 @@ a {
 .features-list {
     display:flex;
     list-style: none;
-    gap:24px 15px;
+    gap:24px;
 }
 
 .features-list-item{
